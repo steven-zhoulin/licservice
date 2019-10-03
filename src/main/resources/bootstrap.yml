@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: licservice
+  profiles:
+    active:
+      prod
+  cloud:
+    config:
+      uri: http://192.168.37.131:8888
